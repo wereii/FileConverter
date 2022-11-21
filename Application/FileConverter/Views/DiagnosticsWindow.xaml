@@ -44,7 +44,7 @@
             <TabControl.ContentTemplate>
                 <DataTemplate DataType="{x:Type diagnostics:DiagnosticsData}">
                     <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="True">
-                        <TextBox TextWrapping="NoWrap" FontFamily="Consolas" IsReadOnly="True"
+                        <TextBox TextWrapping="NoWrap" FontFamily="Consolas" ReadOnly="True"
                                    ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="False"
                                    Text="{Binding Content, Mode=OneWay}" />
                     </ScrollViewer>
